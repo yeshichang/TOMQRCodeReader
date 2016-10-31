@@ -1,0 +1,2 @@
+# TOMQRCodeReader
+一个基于iOS系统API的二维码扫描小框架，push出这个控制器即可
