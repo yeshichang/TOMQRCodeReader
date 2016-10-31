@@ -20,6 +20,7 @@
 
 // 扫描结果处理[需要实现父类的方法，用来拿到扫描结果]   
 - (void)accordingQcode:(NSString *)str {  
+    [super accordingQcode:str];  
     UIAlertView * alertView = [[UIAlertView alloc]initWithTitle:@"扫描结果" message:str delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];  
     [alertView show];  
 }

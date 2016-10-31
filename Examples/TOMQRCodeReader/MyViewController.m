@@ -27,8 +27,8 @@
 }
 
 #pragma mark - 扫描结果处理
-- (void)accordingQcode:(NSString *)str
-{
+- (void)accordingQcode:(NSString *)str {
+    [super accordingQcode:str];
     UIAlertView * alertView = [[UIAlertView alloc]initWithTitle:@"扫描结果" message:str delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
     [alertView show];
     
