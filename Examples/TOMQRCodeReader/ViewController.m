@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "QRCodeViewController.h"
 #import "MyViewController.h"
 
 @interface ViewController ()
