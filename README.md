@@ -6,7 +6,8 @@
 方便调用，并支持cocoaPods，用法简单的。使用真机调试，模拟器会崩溃的。
 
 ## Examples
-// 需要实现父类方法，用来调用相册中的二维码   
+// 需要实现父类方法，用来调用相册中的二维码
+
     - (void)viewDidLoad {  
         [super viewDidLoad];    
         // Do any additional setup after loading the view.    
@@ -18,7 +19,8 @@
         };   
     } 
 
-// 扫描结果处理[需要实现父类的方法，用来拿到扫描结果]   
+// 扫描结果处理[需要实现父类的方法，用来拿到扫描结果] 
+
     - (void)accordingQcode:(NSString *)str {  
         [super accordingQcode:str];  
         UIAlertView * alertView = [[UIAlertView alloc]initWithTitle:@"扫描结果" message:str delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];  
